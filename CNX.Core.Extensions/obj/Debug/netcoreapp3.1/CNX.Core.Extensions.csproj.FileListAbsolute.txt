@@ -1,0 +1,11 @@
+E:\Design\CNX.Core.Extensions\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.deps.json
+E:\Design\CNX.Core.Extensions\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.dll
+E:\Design\CNX.Core.Extensions\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.pdb
+E:\Design\CNX.Core.Extensions\obj\Debug\netcoreapp3.1\CNX.Core.Extensions.AssemblyInfoInputs.cache
+E:\Design\CNX.Core.Extensions\obj\Debug\netcoreapp3.1\CNX.Core.Extensions.AssemblyInfo.cs
+E:\Design\CNX.Core.Extensions\obj\Debug\netcoreapp3.1\CNX.Core.Extensions.csproj.CoreCompileInputs.cache
+E:\Design\CNX.Core.Extensions\obj\Debug\netcoreapp3.1\CNX.Core.Extensions.dll
+E:\Design\CNX.Core.Extensions\obj\Debug\netcoreapp3.1\CNX.Core.Extensions.pdb
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.deps.json
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.dll
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.pdb

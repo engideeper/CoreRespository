@@ -1,0 +1,8 @@
+E:\Design\CNX.Core.Common\bin\Debug\netcoreapp3.1\CNX.Core.Common.deps.json
+E:\Design\CNX.Core.Common\bin\Debug\netcoreapp3.1\CNX.Core.Common.dll
+E:\Design\CNX.Core.Common\bin\Debug\netcoreapp3.1\CNX.Core.Common.pdb
+E:\Design\CNX.Core.Common\obj\Debug\netcoreapp3.1\CNX.Core.Common.AssemblyInfoInputs.cache
+E:\Design\CNX.Core.Common\obj\Debug\netcoreapp3.1\CNX.Core.Common.AssemblyInfo.cs
+E:\Design\CNX.Core.Common\obj\Debug\netcoreapp3.1\CNX.Core.Common.csproj.CoreCompileInputs.cache
+E:\Design\CNX.Core.Common\obj\Debug\netcoreapp3.1\CNX.Core.Common.dll
+E:\Design\CNX.Core.Common\obj\Debug\netcoreapp3.1\CNX.Core.Common.pdb

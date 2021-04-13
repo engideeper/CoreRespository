@@ -1,0 +1,8 @@
+E:\Design\CNX.Core.IRespository\bin\Debug\netcoreapp3.1\CNX.Core.IRespository.deps.json
+E:\Design\CNX.Core.IRespository\bin\Debug\netcoreapp3.1\CNX.Core.IRespository.dll
+E:\Design\CNX.Core.IRespository\bin\Debug\netcoreapp3.1\CNX.Core.IRespository.pdb
+E:\Design\CNX.Core.IRespository\obj\Debug\netcoreapp3.1\CNX.Core.IRespository.AssemblyInfoInputs.cache
+E:\Design\CNX.Core.IRespository\obj\Debug\netcoreapp3.1\CNX.Core.IRespository.AssemblyInfo.cs
+E:\Design\CNX.Core.IRespository\obj\Debug\netcoreapp3.1\CNX.Core.IRespository.csproj.CoreCompileInputs.cache
+E:\Design\CNX.Core.IRespository\obj\Debug\netcoreapp3.1\CNX.Core.IRespository.dll
+E:\Design\CNX.Core.IRespository\obj\Debug\netcoreapp3.1\CNX.Core.IRespository.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CNX.Core.Respository/1.0.0": {
+        "dependencies": {
+          "CNX.Core.IRespository": "1.0.0"
+        },
+        "runtime": {
+          "CNX.Core.Respository.dll": {}
+        }
+      },
+      "CNX.Core.IRespository/1.0.0": {
+        "runtime": {
+          "CNX.Core.IRespository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CNX.Core.Respository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CNX.Core.IRespository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Respository.deps.json
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Respository.dll
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Respository.pdb
+E:\Design\CNX.Core.Respository\obj\Debug\netcoreapp3.1\CNX.Core.Respository.csprojAssemblyReference.cache
+E:\Design\CNX.Core.Respository\obj\Debug\netcoreapp3.1\CNX.Core.Respository.AssemblyInfoInputs.cache
+E:\Design\CNX.Core.Respository\obj\Debug\netcoreapp3.1\CNX.Core.Respository.AssemblyInfo.cs
+E:\Design\CNX.Core.Respository\obj\Debug\netcoreapp3.1\CNX.Core.Respository.csproj.CoreCompileInputs.cache
+E:\Design\CNX.Core.Respository\obj\Debug\netcoreapp3.1\CNX.Core.Respository.csproj.CopyComplete
+E:\Design\CNX.Core.Respository\obj\Debug\netcoreapp3.1\CNX.Core.Respository.dll
+E:\Design\CNX.Core.Respository\obj\Debug\netcoreapp3.1\CNX.Core.Respository.pdb

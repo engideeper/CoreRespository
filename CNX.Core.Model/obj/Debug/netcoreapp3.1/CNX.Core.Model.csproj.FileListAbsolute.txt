@@ -1,0 +1,11 @@
+E:\Design\CNX.Core.Model\bin\Debug\netcoreapp3.1\CNX.Core.Model.deps.json
+E:\Design\CNX.Core.Model\bin\Debug\netcoreapp3.1\CNX.Core.Model.dll
+E:\Design\CNX.Core.Model\bin\Debug\netcoreapp3.1\CNX.Core.Model.pdb
+E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.AssemblyInfoInputs.cache
+E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.AssemblyInfo.cs
+E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.csproj.CoreCompileInputs.cache
+E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.dll
+E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.pdb
+E:\Design\CNX.Core.Model\bin\Debug\netcoreapp3.1\CNX.Core.Model.runtimeconfig.json
+E:\Design\CNX.Core.Model\bin\Debug\netcoreapp3.1\CNX.Core.Model.runtimeconfig.dev.json
+E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.genruntimeconfig.cache

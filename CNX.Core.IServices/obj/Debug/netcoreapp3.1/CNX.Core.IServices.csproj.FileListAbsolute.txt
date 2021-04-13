@@ -1,0 +1,15 @@
+E:\Design\CNX.Core.IServices\bin\Debug\netcoreapp3.1\CNX.Core.IServices.deps.json
+E:\Design\CNX.Core.IServices\bin\Debug\netcoreapp3.1\CNX.Core.IServices.dll
+E:\Design\CNX.Core.IServices\bin\Debug\netcoreapp3.1\CNX.Core.IServices.pdb
+E:\Design\CNX.Core.IServices\bin\Debug\netcoreapp3.1\CNX.Core.Model.dll
+E:\Design\CNX.Core.IServices\bin\Debug\netcoreapp3.1\CNX.Core.Model.pdb
+E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.csprojAssemblyReference.cache
+E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.AssemblyInfoInputs.cache
+E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.AssemblyInfo.cs
+E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.csproj.CoreCompileInputs.cache
+E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.csproj.CopyComplete
+E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.dll
+E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.pdb
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IServices.deps.json
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IServices.dll
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IServices.pdb

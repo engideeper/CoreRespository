@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\CNX.Core.WebApi\bin\Debug\</OutputPath>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CNX.Core.IRepository\CNX.Core.EFCoreRepository.csproj" />
+    <ProjectReference Include="..\CNX.Core.IServices\CNX.Core.IServices.csproj" />
+  </ItemGroup>
+
+</Project>
