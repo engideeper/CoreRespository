@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CNX.Core.IRespository\CNX.Core.IRepository.csproj" />
     <ProjectReference Include="..\CNX.Core.Model\CNX.Core.Model.csproj" />
   </ItemGroup>
 

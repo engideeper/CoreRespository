@@ -2,21 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.13": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1498,65 +1483,18 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "CNX.Core.Common/1.0.0": {
+      "CNX.Core.IRepository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "CNX.Core.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.5"
         },
         "compile": {
-          "bin/placeholder/CNX.Core.Common.dll": {}
+          "bin/placeholder/CNX.Core.IRepository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CNX.Core.Common.dll": {}
-        }
-      },
-      "CNX.Core.EFCoreRepository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "CNX.Core.Common": "1.0.0",
-          "CNX.Core.Extensions": "1.0.0",
-          "CNX.Core.IEFCoreRespository": "1.0.0",
-          "CNX.Core.Model": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CNX.Core.EFCoreRepository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CNX.Core.EFCoreRepository.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "CNX.Core.Extensions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.13"
-        },
-        "compile": {
-          "bin/placeholder/CNX.Core.Extensions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CNX.Core.Extensions.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "CNX.Core.IEFCoreRespository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.5"
-        },
-        "compile": {
-          "bin/placeholder/CNX.Core.IEFCoreRespository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CNX.Core.IEFCoreRespository.dll": {}
+          "bin/placeholder/CNX.Core.IRepository.dll": {}
         }
       },
       "CNX.Core.IServices/1.0.0": {
@@ -1589,21 +1527,6 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.13": {
-      "sha512": "Pv5ns3MQZc7/u52BTb3g/XZBFAZ2xGwWG4r6EUusAHZ1pSiVX0lhwxF13gwPKckd116mfZ8Vo93U51Cly+kp4Q==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.13",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.3.1.13.nupkg.sha512",
-        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
-      ]
-    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -5764,25 +5687,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "CNX.Core.Common/1.0.0": {
+    "CNX.Core.IRepository/1.0.0": {
       "type": "project",
-      "path": "../CNX.Core.Common/CNX.Core.Common.csproj",
-      "msbuildProject": "../CNX.Core.Common/CNX.Core.Common.csproj"
-    },
-    "CNX.Core.EFCoreRepository/1.0.0": {
-      "type": "project",
-      "path": "../CNX.Core.IRepository/CNX.Core.EFCoreRepository.csproj",
-      "msbuildProject": "../CNX.Core.IRepository/CNX.Core.EFCoreRepository.csproj"
-    },
-    "CNX.Core.Extensions/1.0.0": {
-      "type": "project",
-      "path": "../CNX.Core.Extensions/CNX.Core.Extensions.csproj",
-      "msbuildProject": "../CNX.Core.Extensions/CNX.Core.Extensions.csproj"
-    },
-    "CNX.Core.IEFCoreRespository/1.0.0": {
-      "type": "project",
-      "path": "../CNX.Core.EFCoreRespository/CNX.Core.IEFCoreRespository.csproj",
-      "msbuildProject": "../CNX.Core.EFCoreRespository/CNX.Core.IEFCoreRespository.csproj"
+      "path": "../CNX.Core.IRespository/CNX.Core.IRepository.csproj",
+      "msbuildProject": "../CNX.Core.IRespository/CNX.Core.IRepository.csproj"
     },
     "CNX.Core.IServices/1.0.0": {
       "type": "project",
@@ -5797,7 +5705,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CNX.Core.EFCoreRepository >= 1.0.0",
+      "CNX.Core.IRepository >= 1.0.0",
       "CNX.Core.IServices >= 1.0.0"
     ]
   },
@@ -5832,8 +5740,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Design\\CNX.Core.IRepository\\CNX.Core.EFCoreRepository.csproj": {
-              "projectPath": "E:\\Design\\CNX.Core.IRepository\\CNX.Core.EFCoreRepository.csproj"
+            "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj": {
+              "projectPath": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj"
             },
             "E:\\Design\\CNX.Core.IServices\\CNX.Core.IServices.csproj": {
               "projectPath": "E:\\Design\\CNX.Core.IServices\\CNX.Core.IServices.csproj"
@@ -5861,9 +5769,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

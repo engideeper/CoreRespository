@@ -9,7 +9,7 @@
             天气管理
             </summary>
         </member>
-        <member name="M:CNX.Core.WebApi.Controllers.WeatherForecastController.Get(System.String)">
+        <member name="M:CNX.Core.WebApi.Controllers.WeatherForecastController.Get(System.Int32)">
             <summary>
             获取用户信息
             </summary>

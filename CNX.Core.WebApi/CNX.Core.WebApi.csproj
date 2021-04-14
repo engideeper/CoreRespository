@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CNX.Core.Extensions\CNX.Core.Extensions.csproj" />
-    <ProjectReference Include="..\CNX.Core.IRespository\CNX.Core.IRespository.csproj" />
+    <ProjectReference Include="..\CNX.Core.IRespository\CNX.Core.IRepository.csproj" />
     <ProjectReference Include="..\CNX.Core.IServices\CNX.Core.IServices.csproj" />
   </ItemGroup>
 

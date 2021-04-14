@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{99
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CNX.Core.Services", "..\CNX.Core.Services\CNX.Core.Services.csproj", "{CFD13954-7BFA-49FC-8A14-4B3A76492174}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Respository", "Respository", "{FAB402C9-0A87-4563-BE76-7A6EE67EA199}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{FAB402C9-0A87-4563-BE76-7A6EE67EA199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNX.Core.IRespository", "..\CNX.Core.IRespository\CNX.Core.IRespository.csproj", "{B5B5A970-C410-424A-A395-B53517355234}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNX.Core.IRepository", "..\CNX.Core.IRespository\CNX.Core.IRepository.csproj", "{B5B5A970-C410-424A-A395-B53517355234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNX.Core.Respository", "..\CNX.Core.Respository\CNX.Core.Respository.csproj", "{2FA6598A-FB9A-4C2A-8786-A5F2B180484B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNX.Core.Repository", "..\CNX.Core.Respository\CNX.Core.Repository.csproj", "{2FA6598A-FB9A-4C2A-8786-A5F2B180484B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

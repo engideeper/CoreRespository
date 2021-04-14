@@ -78,5 +78,6 @@ E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\Humanizer.dll
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IRespository.dll
-E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IRespository.pdb
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IRepository.dll
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IRepository.pdb
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Repository.pdb

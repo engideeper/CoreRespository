@@ -1,18 +1,22 @@
-﻿using CNX.Core.IServices;
+﻿using CNX.Core.IRespository;
+using CNX.Core.IServices;
 using CNX.Core.Model;
 using System;
+using System.Threading.Tasks;
 
 namespace CNX.Core.Services
 {
-    public class SampleService : ISampleService
+    public class SampleService : BaseServices<SampleInfo>, ISampleService
     {
-        public SampleInfo GetSample()
+        IBaseRepository<SampleInfo> _dal;
+        public async Task<SampleInfo> GetSampleById(int id)
         {
-            return new SampleInfo
-            {
-                ID = 1,
-                Name = "Austen"
-            };
+
+            SampleInfo model = new SampleInfo();
+            var sampleInfo = await base.QueryById(id);
+            model = sampleInfo;
+            return model;
+
         }
     }
 }

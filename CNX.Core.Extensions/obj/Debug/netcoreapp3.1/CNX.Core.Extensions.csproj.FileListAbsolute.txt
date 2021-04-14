@@ -9,3 +9,4 @@ E:\Design\CNX.Core.Extensions\obj\Debug\netcoreapp3.1\CNX.Core.Extensions.pdb
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.deps.json
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.dll
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Extensions.pdb
+E:\Design\CNX.Core.Extensions\obj\Debug\netcoreapp3.1\CNX.Core.Extensions.csprojAssemblyReference.cache

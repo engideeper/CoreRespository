@@ -49,13 +49,13 @@ namespace CNX.Core.WebApi.Controllers
         /// <param name="name">名字</param>
         [Authorize(Policy = "Admin")]
         [HttpGet("GetInfo")]
-        public SampleInfo Get(string name)
+        public async Task<SampleInfo> Get(int id)
         {
 
 
-            var listSample = _sampleService.GetSample();
+           return await _sampleService.GetSampleById(id);
             //var listSample=  _repository.FindList<SampleInfo>().ToList();
-            return listSample;
+            
 
 
             

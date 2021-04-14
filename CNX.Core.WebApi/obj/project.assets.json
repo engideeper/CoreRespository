@@ -2288,14 +2288,18 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "CNX.Core.IRespository/1.0.0": {
+      "CNX.Core.IRepository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CNX.Core.Model": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.5"
+        },
         "compile": {
-          "bin/placeholder/CNX.Core.IRespository.dll": {}
+          "bin/placeholder/CNX.Core.IRepository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CNX.Core.IRespository.dll": {}
+          "bin/placeholder/CNX.Core.IRepository.dll": {}
         }
       },
       "CNX.Core.IServices/1.0.0": {
@@ -7658,10 +7662,10 @@
       "path": "../CNX.Core.Extensions/CNX.Core.Extensions.csproj",
       "msbuildProject": "../CNX.Core.Extensions/CNX.Core.Extensions.csproj"
     },
-    "CNX.Core.IRespository/1.0.0": {
+    "CNX.Core.IRepository/1.0.0": {
       "type": "project",
-      "path": "../CNX.Core.IRespository/CNX.Core.IRespository.csproj",
-      "msbuildProject": "../CNX.Core.IRespository/CNX.Core.IRespository.csproj"
+      "path": "../CNX.Core.IRespository/CNX.Core.IRepository.csproj",
+      "msbuildProject": "../CNX.Core.IRespository/CNX.Core.IRepository.csproj"
     },
     "CNX.Core.IServices/1.0.0": {
       "type": "project",
@@ -7679,7 +7683,7 @@
       "Autofac.Extensions.DependencyInjection >= 7.1.0",
       "Autofac.Extras.DynamicProxy >= 6.0.0",
       "CNX.Core.Extensions >= 1.0.0",
-      "CNX.Core.IRespository >= 1.0.0",
+      "CNX.Core.IRepository >= 1.0.0",
       "CNX.Core.IServices >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5",
       "Swashbuckle.AspNetCore >= 6.1.1"
@@ -7719,8 +7723,8 @@
             "E:\\Design\\CNX.Core.Extensions\\CNX.Core.Extensions.csproj": {
               "projectPath": "E:\\Design\\CNX.Core.Extensions\\CNX.Core.Extensions.csproj"
             },
-            "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRespository.csproj": {
-              "projectPath": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRespository.csproj"
+            "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj": {
+              "projectPath": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj"
             },
             "E:\\Design\\CNX.Core.IServices\\CNX.Core.IServices.csproj": {
               "projectPath": "E:\\Design\\CNX.Core.IServices\\CNX.Core.IServices.csproj"

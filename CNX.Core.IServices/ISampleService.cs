@@ -1,10 +1,15 @@
 ﻿using CNX.Core.Model;
 using System;
+using System.Threading.Tasks;
 
 namespace CNX.Core.IServices
 {
-    public interface ISampleService
+    public interface ISampleService: IBaseServices<SampleInfo>
     {
-       public SampleInfo GetSample();
+
+
+        Task<SampleInfo> GetSampleById(int id);
+
     }
+       
 }

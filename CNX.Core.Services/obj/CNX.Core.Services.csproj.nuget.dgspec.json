@@ -4,206 +4,14 @@
     "E:\\Design\\CNX.Core.Services\\CNX.Core.Services.csproj": {}
   },
   "projects": {
-    "E:\\Design\\CNX.Core.Common\\CNX.Core.Common.csproj": {
+    "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Design\\CNX.Core.Common\\CNX.Core.Common.csproj",
-        "projectName": "CNX.Core.Common",
-        "projectPath": "E:\\Design\\CNX.Core.Common\\CNX.Core.Common.csproj",
+        "projectUniqueName": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj",
+        "projectName": "CNX.Core.IRepository",
+        "projectPath": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj",
         "packagesPath": "C:\\Users\\GG\\.nuget\\packages\\",
-        "outputPath": "E:\\Design\\CNX.Core.Common\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\GG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Design\\CNX.Core.EFCoreRespository\\CNX.Core.IEFCoreRespository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Design\\CNX.Core.EFCoreRespository\\CNX.Core.IEFCoreRespository.csproj",
-        "projectName": "CNX.Core.IEFCoreRespository",
-        "projectPath": "E:\\Design\\CNX.Core.EFCoreRespository\\CNX.Core.IEFCoreRespository.csproj",
-        "packagesPath": "C:\\Users\\GG\\.nuget\\packages\\",
-        "outputPath": "E:\\Design\\CNX.Core.EFCoreRespository\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\GG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Design\\CNX.Core.Extensions\\CNX.Core.Extensions.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Design\\CNX.Core.Extensions\\CNX.Core.Extensions.csproj",
-        "projectName": "CNX.Core.Extensions",
-        "projectPath": "E:\\Design\\CNX.Core.Extensions\\CNX.Core.Extensions.csproj",
-        "packagesPath": "C:\\Users\\GG\\.nuget\\packages\\",
-        "outputPath": "E:\\Design\\CNX.Core.Extensions\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\GG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.13, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Design\\CNX.Core.IRepository\\CNX.Core.EFCoreRepository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Design\\CNX.Core.IRepository\\CNX.Core.EFCoreRepository.csproj",
-        "projectName": "CNX.Core.EFCoreRepository",
-        "projectPath": "E:\\Design\\CNX.Core.IRepository\\CNX.Core.EFCoreRepository.csproj",
-        "packagesPath": "C:\\Users\\GG\\.nuget\\packages\\",
-        "outputPath": "E:\\Design\\CNX.Core.IRepository\\obj\\",
+        "outputPath": "E:\\Design\\CNX.Core.IRespository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -223,15 +31,6 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Design\\CNX.Core.Common\\CNX.Core.Common.csproj": {
-                "projectPath": "E:\\Design\\CNX.Core.Common\\CNX.Core.Common.csproj"
-              },
-              "E:\\Design\\CNX.Core.EFCoreRespository\\CNX.Core.IEFCoreRespository.csproj": {
-                "projectPath": "E:\\Design\\CNX.Core.EFCoreRespository\\CNX.Core.IEFCoreRespository.csproj"
-              },
-              "E:\\Design\\CNX.Core.Extensions\\CNX.Core.Extensions.csproj": {
-                "projectPath": "E:\\Design\\CNX.Core.Extensions\\CNX.Core.Extensions.csproj"
-              },
               "E:\\Design\\CNX.Core.Model\\CNX.Core.Model.csproj": {
                 "projectPath": "E:\\Design\\CNX.Core.Model\\CNX.Core.Model.csproj"
               }
@@ -247,6 +46,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -258,9 +63,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -436,8 +238,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Design\\CNX.Core.IRepository\\CNX.Core.EFCoreRepository.csproj": {
-                "projectPath": "E:\\Design\\CNX.Core.IRepository\\CNX.Core.EFCoreRepository.csproj"
+              "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj": {
+                "projectPath": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj"
               },
               "E:\\Design\\CNX.Core.IServices\\CNX.Core.IServices.csproj": {
                 "projectPath": "E:\\Design\\CNX.Core.IServices\\CNX.Core.IServices.csproj"
@@ -465,9 +267,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

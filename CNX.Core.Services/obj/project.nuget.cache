@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "ygVbdNruYnils1Sc+d48damXuysstDbLUYJsaxjCXddVLe93kr5puBAHPZlVFYi5bel8CiYtmveGIxLz4PfGAQ==",
+  "dgSpecHash": "Wa+G5VhoVZGpiQj91nznFpFdSsfpPHj8HF7vNf/K9uopiTguYSmi9C+GC2gPHqL3DaM1c/K7QGOOUAj4AITv7Q==",
   "success": true,
   "projectFilePath": "E:\\Design\\CNX.Core.Services\\CNX.Core.Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\GG\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.13\\microsoft.aspnetcore.authentication.jwtbearer.3.1.13.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\GG\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\GG\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
