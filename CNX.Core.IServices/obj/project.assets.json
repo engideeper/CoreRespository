@@ -1483,6 +1483,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "CNX.Core.IRepository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CNX.Core.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CNX.Core.IRepository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CNX.Core.IRepository.dll": {}
+        }
+      },
       "CNX.Core.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5660,6 +5673,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "CNX.Core.IRepository/1.0.0": {
+      "type": "project",
+      "path": "../CNX.Core.IRespository/CNX.Core.IRepository.csproj",
+      "msbuildProject": "../CNX.Core.IRespository/CNX.Core.IRepository.csproj"
+    },
     "CNX.Core.Model/1.0.0": {
       "type": "project",
       "path": "../CNX.Core.Model/CNX.Core.Model.csproj",
@@ -5668,6 +5686,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CNX.Core.IRepository >= 1.0.0",
       "CNX.Core.Model >= 1.0.0"
     ]
   },
@@ -5702,6 +5721,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj": {
+              "projectPath": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj"
+            },
             "E:\\Design\\CNX.Core.Model\\CNX.Core.Model.csproj": {
               "projectPath": "E:\\Design\\CNX.Core.Model\\CNX.Core.Model.csproj"
             }

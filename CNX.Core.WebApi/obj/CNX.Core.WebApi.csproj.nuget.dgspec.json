@@ -112,12 +112,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -164,6 +158,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj": {
+                "projectPath": "E:\\Design\\CNX.Core.IRespository\\CNX.Core.IRepository.csproj"
+              },
               "E:\\Design\\CNX.Core.Model\\CNX.Core.Model.csproj": {
                 "projectPath": "E:\\Design\\CNX.Core.Model\\CNX.Core.Model.csproj"
               }

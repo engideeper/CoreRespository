@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CNX.Core.IRespository
 {
-    public interface IBaseRepository<TEntity> where TEntity : class
+    public interface IBaseRepository<T> where T : class, new()
     {
 
         /// <summary>
@@ -16,7 +16,7 @@ namespace CNX.Core.IRespository
         /// </summary>
         /// <param name="objId"></param>
         /// <returns></returns>
-        Task<TEntity> QueryById(object objId);
+        Task<T> QueryById(object objId);
     }
 
 

@@ -9,3 +9,4 @@ E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.pdb
 E:\Design\CNX.Core.Model\bin\Debug\netcoreapp3.1\CNX.Core.Model.runtimeconfig.json
 E:\Design\CNX.Core.Model\bin\Debug\netcoreapp3.1\CNX.Core.Model.runtimeconfig.dev.json
 E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.genruntimeconfig.cache
+E:\Design\CNX.Core.Model\obj\Debug\netcoreapp3.1\CNX.Core.Model.csprojAssemblyReference.cache

@@ -1,12 +1,6 @@
 ﻿using CNX.Core.IRespository;
-using CNX.Core.Respository.Extensions;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CNX.Core.Respository
@@ -16,6 +10,7 @@ namespace CNX.Core.Respository
         private readonly DbSet<TEntity> _dbSet = null;
 
         private readonly DbContext _dbContext = null;
+
 
         public virtual IUnitOfWork UnitOfWork { get; }
         public BaseRepository(IServiceProvider serviceProvider)

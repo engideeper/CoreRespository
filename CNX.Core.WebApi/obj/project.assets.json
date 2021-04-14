@@ -2292,8 +2292,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "CNX.Core.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.5"
+          "CNX.Core.Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CNX.Core.IRepository.dll": {}
@@ -2306,6 +2305,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "CNX.Core.IRepository": "1.0.0",
           "CNX.Core.Model": "1.0.0"
         },
         "compile": {

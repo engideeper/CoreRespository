@@ -1487,8 +1487,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "CNX.Core.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.5"
+          "CNX.Core.Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CNX.Core.IRepository.dll": {}
@@ -5688,8 +5687,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CNX.Core.IRepository >= 1.0.0",
-      "CNX.Core.Model >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 5.0.5"
+      "CNX.Core.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5741,12 +5739,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[5.0.5, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
