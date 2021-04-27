@@ -1,7 +1,9 @@
 using Autofac;
 using Blog.Core.Extensions;
+using CNX.Core.Common.AutoMapper;
 using CNX.Core.Extensions;
 using CNX.Core.Extensions.JWT;
+using CNX.Core.Respository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,6 +41,7 @@ namespace CNX.Core.WebApi
                 options.UseSqlServer(connectionString);
             });
 
+            services.AddAutoMapperSetup();
             services.AddControllers();
             // services.AddScoped<JWTTokenBuilder, JWTTokenBuilder>();
 

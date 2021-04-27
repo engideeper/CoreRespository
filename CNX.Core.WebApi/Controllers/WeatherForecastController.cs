@@ -47,30 +47,38 @@ namespace CNX.Core.WebApi.Controllers
         /// </summary>
         /// <returns></returns>
         /// <param name="name">名字</param>
-        [Authorize(Policy = "Admin")]
+       // [Authorize(Policy = "Admin")]
         [HttpGet("GetInfo")]
         public async Task<SampleInfo> Get(int id)
         {
-
-
            return await _sampleService.GetSampleById(id);
-            //var listSample=  _repository.FindList<SampleInfo>().ToList();
-            
-
-
-            
-            //var rng = new Random();
-            //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            //{
-            //    Date = DateTime.Now.AddDays(index),
-            //    TemperatureC = rng.Next(-20, 55),
-            //    Summary = Summaries[rng.Next(Summaries.Length)]
-            //})
-            //.ToArray();
         }
 
 
 
+
+
+
+        /// <summary>
+        /// 得到该表得id等于2的
+        /// </summary>
+        /// <returns></returns>
+        /// 
+
+        [HttpGet("GetSampleTable")]
+        public async Task<SampleInfo> AddSampleInfo() 
+        {
+            var sampleInfo = new SampleInfo()
+            {
+                Name = "addInfo-1",
+                Description = "some Information",
+                Valid = 1,
+                Type = 1
+            };
+            var sm = await _sampleService.AddSampleInfo(sampleInfo);
+            return sm;
+        
+        }
 
 
         /// <summary>

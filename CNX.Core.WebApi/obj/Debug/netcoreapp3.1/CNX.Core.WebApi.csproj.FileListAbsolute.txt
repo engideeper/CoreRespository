@@ -80,4 +80,7 @@ E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\Humanizer.dll
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IRepository.dll
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IRepository.pdb
-E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Repository.pdb
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Common.dll
+E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.Common.pdb

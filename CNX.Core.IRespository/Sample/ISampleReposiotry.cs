@@ -7,5 +7,6 @@ namespace CNX.Core.IRespository.ISampleResponsitory
 {
    public interface ISampleReposiotry: IBaseRepository<SampleInfo>
     {
+
     }
 }

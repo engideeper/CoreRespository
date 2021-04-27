@@ -13,3 +13,5 @@ E:\Design\CNX.Core.IServices\obj\Debug\netcoreapp3.1\CNX.Core.IServices.pdb
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IServices.deps.json
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IServices.dll
 E:\Design\CNX.Core.WebApi\bin\Debug\netcoreapp3.1\CNX.Core.IServices.pdb
+E:\Design\CNX.Core.IServices\bin\Debug\netcoreapp3.1\CNX.Core.IRepository.dll
+E:\Design\CNX.Core.IServices\bin\Debug\netcoreapp3.1\CNX.Core.IRepository.pdb

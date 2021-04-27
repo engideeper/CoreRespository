@@ -21,9 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CNX.Core.Common\CNX.Core.Common.csproj" />
     <ProjectReference Include="..\CNX.Core.Extensions\CNX.Core.Extensions.csproj" />
     <ProjectReference Include="..\CNX.Core.IRespository\CNX.Core.IRepository.csproj" />
     <ProjectReference Include="..\CNX.Core.IServices\CNX.Core.IServices.csproj" />
+    <ProjectReference Include="..\CNX.Core.Respository\CNX.Core.Repository.csproj" />
   </ItemGroup>
 
 
